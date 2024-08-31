@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive, sans-serif;
+    
+}
+body{
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+p{
+    text-align: center;
+   
+}
+
+ input{
+    margin-bottom: 1rem;
+    width: 15rem;
+    font-size: 1.2rem;
+    padding: .4rem 1rem;
+    border: none;
+     outline: none;
+    border-radius: 1rem;
+    background-color: yellow;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.5), inset -4px -4px 12px rgba(0, 0, 0, 0.4);
+    
+ }
